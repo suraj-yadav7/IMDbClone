@@ -1,0 +1,12 @@
+.navbar{
+    >ul{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        color: blue;
+
+        >li{
+            list-style: none;
+        }
+    }
+}
