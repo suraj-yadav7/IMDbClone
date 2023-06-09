@@ -1,0 +1,22 @@
+nav{
+    background-color: rgb(40, 39, 39);
+
+    >.navbar{
+        padding: 1rem;
+        // margin: 0 10px;
+        >ul{
+            display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        color: blue;
+        >.logo{
+            height: 100px;
+            width: 340px;
+        }
+
+        >li{
+            list-style: none;
+        }
+    }
+}
+}

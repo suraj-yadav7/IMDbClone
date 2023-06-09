@@ -1,0 +1,111 @@
+.posterImage{
+    height: 600px;
+}
+
+.posterImage > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.posterImage__overlay {
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}   
+
+.posterImage__overlay:hover {
+    opacity: 1;
+}
+
+.posterImage__title {
+    font-weight: 900;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImage__runtime {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.posterImage__rating {
+    margin-left: 3rem;
+}
+
+.posterImage__description {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+
+// Popular Movie List
+
+.popularMovie{
+    background-color: black;
+    >.popularHeading{
+        text-align: left;
+        padding: 6px 1rem;
+        // border: 1px solid rgb(118, 116, 116);
+        >h3{
+            padding: 0.2rem 0;
+        }
+          
+    }
+    >.popularMovieList{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+}
+
+// 
+
+.topRatedMovie{
+    background-color: black;
+    >.topRatedHeading{
+        text-align: left;
+        padding: 6px 1rem;
+        >h3{
+            padding: 0.2rem 0;
+        }
+          
+    }
+    >.topRatedMovieList{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+}
+
+// upcoming movie
+.upcomingMovie{
+    >.upcomingHeading{
+        text-align: left;
+        padding: 6px 1rem;
+        >h3{
+            padding: 0.2rem 0;
+        }
+          
+    }
+    background-color: black;
+    >.upcomingMovieList{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+}

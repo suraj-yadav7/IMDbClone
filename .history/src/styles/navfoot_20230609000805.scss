@@ -1,0 +1,31 @@
+nav{
+    background-color: rgb(40, 39, 39);
+
+    >.navbar{
+        padding: 1rem;
+        // margin: 0 10px;
+        >ul{
+            display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        color: blue;
+       
+        >li{
+            list-style: none;
+        }
+    }
+}
+>.logo{
+    height: 60px;
+    width: 100px
+}
+
+}
+
+// Footer Styling
+footer{
+    >.footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,48 @@
+nav{
+    background-color: rgb(40, 39, 39);
+
+    >.navbar{
+        padding: 1rem;
+        // margin: 0 10px;
+        >ul{
+            display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        color: blue;
+       
+        >li{
+            list-style: none;
+        }
+    }
+}
+>.logo{
+    height: 60px;
+    width: 100px
+}
+
+}
+
+// Footer Styling
+footer{
+    border: 1px solid rgb(60, 58, 58);
+    background-color: black;
+    >.footer{
+        display: flex;
+        flex-direction: column;
+        >.btnFt{
+            >ul{
+                display: flex;
+                flex-direction: column;
+            }
+            >button{
+            background-color: yellow;
+            height: 2.5rem;
+            width: 10rem;
+            color: black;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    }
+    }
+    
+}
